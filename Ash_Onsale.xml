@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * Show collection of on-sale products
+ *
+ * @category    Ash
+ * @package     Ash_Onsale
+ * @copyright   Copyright (c) 2013 August Ash, Inc. (http://www.augustash.com)
+ * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+-->
+<config>
+    <modules>
+        <Ash_Onsale>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Ash_Onsale>
+    </modules>
+</config>

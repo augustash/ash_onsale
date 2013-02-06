@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * Show collection of on-sale products
+ *
+ * @category    Ash
+ * @package     Ash_Onsale
+ * @copyright   Copyright (c) 2013 August Ash, Inc. (http://www.augustash.com)
+ * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+-->
+<config>
+    <modules>
+        <Ash_Onsale>
+             <version>1.0.0</version>
+        </Ash_Onsale>
+    </modules>
+
+    <global>
+        <helpers>
+            <ash_onsale>
+                <class>Ash_Onsale_Helper</class>
+            </ash_onsale>
+        </helpers>
+    </global>
+
+    <adminhtml>
+        <translate>
+            <modules>
+                <Ash_Onsale>
+                    <files>
+                        <default>Ash_Onsale.csv</default>
+                    </files>
+                </Ash_Onsale>
+            </modules>
+        </translate>
+        <layout>
+            <updates>
+                <ash_onsale>
+                    <file>ash_onsale.xml</file>
+                </ash_onsale>
+            </updates>
+        </layout>
+    </adminhtml>
+</config>

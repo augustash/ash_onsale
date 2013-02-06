@@ -1,0 +1,4 @@
+# Ash_Onsale Mappings
+
+Ash_Onsale.xml        app/etc/modules/Ash_Onsale.xml
+code                  app/code/local/Ash/Onsale/
