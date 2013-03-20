@@ -7,39 +7,23 @@
  * @package     Ash_Onsale
  * @copyright   Copyright (c) 2013 August Ash, Inc. (http://www.augustash.com)
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ * @author      August Ash Team <core@augustash.com>
  */
 -->
 <config>
     <modules>
         <Ash_Onsale>
-             <version>1.0.0</version>
+             <version>1.0.2</version>
+             <ashup
+                remote="https://s3.amazonaws.com/augustash/mage/ash_onsale-latest.zip" />
         </Ash_Onsale>
     </modules>
 
     <global>
-        <helpers>
+        <blocks>
             <ash_onsale>
-                <class>Ash_Onsale_Helper</class>
+                <class>Ash_Onsale_Block</class>
             </ash_onsale>
-        </helpers>
+        </blocks>
     </global>
-
-    <adminhtml>
-        <translate>
-            <modules>
-                <Ash_Onsale>
-                    <files>
-                        <default>Ash_Onsale.csv</default>
-                    </files>
-                </Ash_Onsale>
-            </modules>
-        </translate>
-        <layout>
-            <updates>
-                <ash_onsale>
-                    <file>ash_onsale.xml</file>
-                </ash_onsale>
-            </updates>
-        </layout>
-    </adminhtml>
 </config>
