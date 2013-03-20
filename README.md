@@ -18,6 +18,7 @@ Installation
 * For this module to do its job, you must specify the following layout update on 
   a category via the administration interface:
 
+```xml
 <reference name="category.products">
     <block type="ash_onsale/product_list" name="product_list" template="catalog/product/list.phtml">
         <block type="catalog/product_list_toolbar" name="product_list_toolbar" template="catalog/product/list/toolbar.phtml">
@@ -27,6 +28,7 @@ Installation
         <action method="setToolbarBlockName"><name>product_list_toolbar</name></action>
     </block>
 </reference>
+```
 
 ```
 @copyright  Copyright (c) 2013 August Ash, Inc. (http://www.augustash.com)
